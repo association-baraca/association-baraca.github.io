@@ -1,8 +1,9 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
 titre: Balade en forêt
+categories: anciennes
+date: 2014-07-18
 img: balade.jpg
 alt: image-alt
 project-date: Janvier 2025
