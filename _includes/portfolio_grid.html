@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="actu">
-      {% for post in site.posts.categories.nouvelles %}
+      {% for post in site.categories.nouvelles %}
         <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
         <h2>{{ post.titre }}</h2>
         <p>{{ post.description }}</p>
