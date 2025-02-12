@@ -180,6 +180,18 @@ header .intro-text .skills {
     border: 0;
 }
 
+.navbar.pommepote{
+    display: none;
+}
+
+@media(min-width:768px){
+    .navbar.pommepote{
+        position:absolute;
+        right: 25px;
+        display: block;
+    }
+}
+
 section {
     padding: 100px 0;
 }
