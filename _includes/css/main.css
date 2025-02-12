@@ -121,6 +121,9 @@ header .intro-text .skills {
 
     header .intro-text .skills {
         font-size: 1.45em;
+        max-width: 700px;
+        display: block;
+        margin: 0 auto;
     }
 }
 
