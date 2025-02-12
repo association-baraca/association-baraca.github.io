@@ -2,11 +2,11 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: cabin.png
+titre: Balade en forêt
+img: balade.jpg
 alt: image-alt
 project-date: Janvier 2025
 lieu: Salon la tour
-category: Web Development
-titre: Cueillette
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Nous avons organisé une balade en forêt ouvert à toutes et tous  
+             N'hesitez pas à nous contacter pour savoir quand sera la prochaine !       
 ---
