@@ -216,6 +216,13 @@ section.success {
     }
 }
 
+#quoi-a-venir .actu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #actions-passees .portfolio-item {
     right: 0;
     margin: 0 0 15px;
