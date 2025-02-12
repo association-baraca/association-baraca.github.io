@@ -180,12 +180,12 @@ header .intro-text .skills {
     border: 0;
 }
 
-.navbar.pommepote{
+.navbar .pommepote{
     display: none;
 }
 
 @media(min-width:768px){
-    .navbar.pommepote{
+    .navbar .pommepote{
         position:absolute;
         right: 25px;
         display: block;
