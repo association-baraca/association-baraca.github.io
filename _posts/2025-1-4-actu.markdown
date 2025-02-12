@@ -11,5 +11,5 @@ lieu: Salon la tour
 description: |
  Nous organisons la fête de la Baracas à Salon la tour le 16 mars 2025 !
  Venez nous recontrer et n'oubliez pas d'amener un p'tit quelque chose pour notre super repas partagé !
- À bientôt !       
+ À bientôt !
 ---
