@@ -223,6 +223,12 @@ section.success {
     align-items: center;
 }
 
+#quoi-a-venir .actu h2{
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #actions-passees .portfolio-item {
     right: 0;
     margin: 0 0 15px;
