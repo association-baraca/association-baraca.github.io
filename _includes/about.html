@@ -11,6 +11,7 @@
       {% for post in site.categories.anciennes %}
       <div class="portfolio-flex-item portfolio-item">
         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <p class="caption-titre">{{ post.titre }}</p>
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
