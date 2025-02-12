@@ -8,9 +8,11 @@
       </div>
     </div>
     <div class="actu">
-      <img src="img/Fete-baracas-2025.jpg" alt="Affiche fete baracas">
-      <h2>Fete de la baracas - 16 Mars 2025</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum provident facere animi libero totam accusamus nobis, non commodi, aut saepe, odio quisquam ratione necessitatibus quidem sequi dicta corporis neque similique.</p>
+      {% for post in site.posts.categories.nouvelles %}
+        <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+        <h2>{{ post.titre }}</h2>
+        <p>{{ post.description }}</p>
+      {% endfor %}
     </div>
   </div>
 </section>
