@@ -229,6 +229,10 @@ section.success {
     margin-bottom: 10px;
 }
 
+#quoi-a-venir .actu p{
+    max-width: 795px;
+}
+
 #actions-passees .portfolio-item {
     right: 0;
     margin: 0 0 15px;
