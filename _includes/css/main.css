@@ -599,6 +599,10 @@ section#list-bon-plan{
     color: inherit;
 }
 
+.panel-group .panel-heading a:hover{
+    color: #{{ site.color.primary }};
+}
+
 .panel-group .active .panel-heading a{
     color: #{{ site.color.primary }};
 }
