@@ -8,10 +8,20 @@
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
+        var target = $anchor.attr('href');
+
+        // Vérifie si le lien contient une URL complète
+        if (target.includes(window.location.hostname)) {
+            target = target.split('#')[1]; // Récupère uniquement l’ancre
+            target = '#' + target; // Reformate en #id
+        }
+
+        if ($(target).length) {
+            $('html, body').stop().animate({
+                scrollTop: $(target).offset().top
+            }, 1500, 'easeInOutExpo');
+            event.preventDefault();
+        }
     });
 });
 
