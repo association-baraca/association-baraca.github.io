@@ -197,7 +197,7 @@ header .intro-text .skills {
         display: block;
     }
     .navbar .pommepote{
-        animation: sliding 6s ease infinite;
+        animation: sliding 6s ease-in-out infinite;
     }
 }
 
