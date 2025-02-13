@@ -35,20 +35,23 @@
 
 <script>
     $(document).ready(function () {
-        var delay = 500; // Temps en millisecondes (500ms = 0.5s)
+        var delay = 500; // Délai en millisecondes (500ms = 0.5s)
 
         $("#accordion .panel-title a").on("click", function (e) {
-            var target = $(this).attr("href"); // ID du contenu à ouvrir
+            var target = $(this).attr("href"); // ID du collapse lié
 
-            if (!$(target).hasClass("in")) { // Vérifie s'il est fermé
+            if (!$(target).hasClass("in")) { // Vérifie si l'accordéon est FERMÉ
                 e.preventDefault(); // Bloque l'action immédiate
+                var $this = $(this); // Stocke l'élément cliqué
+
                 setTimeout(function () {
-                    $(target).collapse("show"); // Ouvre après le délai
+                    $this.closest(".panel").find(".panel-collapse").collapse("toggle"); // Ouvre après le délai
                 }, delay);
             }
         });
     });
 </script>
+
 
 {% if site.contact == "disqus" %}
 <!-- Disqus Stuff -->
