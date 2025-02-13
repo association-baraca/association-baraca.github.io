@@ -576,3 +576,41 @@ body {
 .panel-title a.collapsed .chevron {
     transform: rotate(-45deg);
 }
+
+.panel-default {
+    position: relative;
+    overflow: hidden;
+}
+
+.panel-default::before {
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3));
+    transition: transform 0.5s ease-in-out;
+    transform: translate(0, 0);
+    z-index: 0;
+}
+
+.panel-heading {
+    position: relative;
+    z-index: 1; /* Pour que le texte reste visible */
+}
+
+.panel-collapse.in + .panel-body,
+.panel-collapse.collapsing + .panel-body {
+    position: relative;
+    z-index: 1;
+}
+
+.panel-collapse.in + .panel-body::before {
+    transform: translate(100%, 100%);
+}
+
+.panel-default:has(.panel-collapse.in)::before {
+    transform: translate(100%, 100%);
+}
+
