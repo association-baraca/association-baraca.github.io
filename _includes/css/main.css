@@ -562,6 +562,11 @@ body {
     padding-bottom: 30px;
 }
 
+.panel-title > a {
+    width: 100%;
+    display: inline-block;
+}
+
 .chevron {
     display: inline-block;
     width: 10px;
