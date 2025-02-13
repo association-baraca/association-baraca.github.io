@@ -195,9 +195,11 @@ header .intro-text .skills {
         position:absolute;
         right: 25px;
         display: block;
+        animation-play-state: paused;
     }
     .navbar .pommepote:hover{
         animation: sliding 2s ease;
+        animation-play-state: running;
     }
 }
 
