@@ -195,7 +195,7 @@ header .intro-text .skills {
         right: 25px;
         display: block;
     }
-    .navbar .pommepote:hover{
+    .navbar .pommepote{
         animation: sliding 2s ease infinite;
         animation-delay: 6s;
     }
