@@ -181,9 +181,8 @@ header .intro-text .skills {
 }
 
 @-webkit-keyframes sliding{
-    0%{right:25px}
-    40%{right:50px}
-    100%{right:25px}
+    0%{transform: rotateY(0deg);}
+    100%{transform: rotateY(360deg);}
 }
 
 .navbar .pommepote{
