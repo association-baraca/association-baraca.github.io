@@ -551,9 +551,9 @@ footer .footer-below {
 Bons Plans
 *****/
 
-body {
+body#page-bons-plans {
     background-color: #f0f2f5;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0 0;
 }
 
 
