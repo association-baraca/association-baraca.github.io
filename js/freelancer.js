@@ -36,10 +36,26 @@ $(function() {
     });
 });
 
-// Highlight the top nav as scrolling occurs
+/* Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+})*/
+
+$(function() {
+    // Corrige les liens du menu pour ScrollSpy
+    $('.navbar-fixed-top a').each(function() {
+        var href = $(this).attr('href');
+        if (href.includes('#')) {
+            $(this).attr('href', '#' + href.split('#')[1]); // Garde seulement #id
+        }
+    });
+
+    // Active ScrollSpy
+    $('body').scrollspy({
+        target: '.navbar-fixed-top',
+        offset: 50 // Ajuste si besoin
+    });
+});
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
