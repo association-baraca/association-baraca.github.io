@@ -20,6 +20,19 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{ " js/freelancer.js" }}"></script>
 
+<!-- Accordeon Bons plans -->
+<script>
+    $(document).ready(function () {
+        $("#accordion .panel-collapse").on("shown.bs.collapse", function () {
+            $(this).closest(".panel-default").addClass("active");
+        });
+
+        $("#accordion .panel-collapse").on("hidden.bs.collapse", function () {
+            $(this).closest(".panel-default").removeClass("active");
+        });
+    });
+</script>
+
 {% if site.contact == "disqus" %}
 <!-- Disqus Stuff -->
 {% include js_disqus.html %}
