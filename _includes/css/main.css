@@ -582,35 +582,29 @@ body {
     overflow: hidden;
 }
 
+/* Création de la couche colorée */
 .panel-default::before {
     content: "";
     position: absolute;
-    top: -100%;
-    left: -100%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(135deg, rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.6), rgba(0, 0, 255, 0.6));
+    transform: scale(0);
+    transform-origin: top left;
     transition: transform 0.5s ease-in-out;
-    transform: translate(0, 0);
     z-index: 0;
 }
 
-.panel-heading {
-    position: relative;
-    z-index: 1; /* Pour que le texte reste visible */
-}
-
-.panel-collapse.in + .panel-body,
-.panel-collapse.collapsing + .panel-body {
+/* On s'assure que l'en-tête et le contenu restent visibles */
+.panel-heading,
+.panel-body {
     position: relative;
     z-index: 1;
 }
 
-.panel-collapse.in + .panel-body::before {
-    transform: translate(100%, 100%);
+/* Quand l'accordéon est actif, la couleur grandit jusqu'à couvrir tout */
+.panel-default.active::before {
+    transform: scale(1);
 }
-
-.panel-default:has(.panel-collapse.in)::before {
-    transform: translate(100%, 100%);
-}
-
