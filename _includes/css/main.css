@@ -180,6 +180,12 @@ header .intro-text .skills {
     border: 0;
 }
 
+@-webkit-keyframes sliding{
+    0%{right:25px}
+    40%{right:50px}
+    100%{right:25px}
+}
+
 .navbar .pommepote{
     display: none;
 }
@@ -189,6 +195,7 @@ header .intro-text .skills {
         position:absolute;
         right: 25px;
         display: block;
+        animation: sliding 2s ease;
     }
 }
 
