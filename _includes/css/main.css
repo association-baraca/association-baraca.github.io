@@ -36,6 +36,11 @@ h6 {
     font-weight: 700;
 }
 
+.py-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
