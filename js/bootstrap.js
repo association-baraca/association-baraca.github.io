@@ -1847,7 +1847,7 @@ setTimeout(() => {
   this._queueCallback(complete, this._element, true);
   this._element.style[dimension] = `${this._element[scrollSize]}px`;
 }, 500); // ⏳ Temps de délai (500ms)
-}
+})
 
     hide() {
       if (this._isTransitioning || !this._isShown()) {
