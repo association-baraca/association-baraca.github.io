@@ -591,13 +591,15 @@ body {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.panel-group .panel-heading a:focus{
+    color: inherit;
+}
+
 .panel-group .active .panel-heading a{
     color: #{{ site.color.primary }};
 }
 
-.panel-group .panel-heading a:focus{
-    color: inherit;
-}
+
 
 /* Création de la couche colorée 
 .panel-default::before {
