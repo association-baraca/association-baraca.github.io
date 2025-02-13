@@ -462,6 +462,10 @@ footer .footer-below {
     outline: 0;
 }
 
+.portfolio-modal{
+    margin: 30px 50px;
+}
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
