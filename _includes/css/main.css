@@ -587,6 +587,10 @@ body {
     overflow: hidden;
 }
 
+.panel-group .panel {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 /* Création de la couche colorée 
 .panel-default::before {
     content: "";
