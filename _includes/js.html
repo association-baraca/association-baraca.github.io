@@ -33,6 +33,23 @@
     });
 </script>
 
+<script>
+    $(document).ready(function () {
+        var delay = 500; // Temps en millisecondes (500ms = 0.5s)
+
+        $("#accordion .panel-title a").on("click", function (e) {
+            var target = $(this).attr("href"); // ID du contenu à ouvrir
+
+            if (!$(target).hasClass("in")) { // Vérifie s'il est fermé
+                e.preventDefault(); // Bloque l'action immédiate
+                setTimeout(function () {
+                    $(target).collapse("show"); // Ouvre après le délai
+                }, delay);
+            }
+        });
+    });
+</script>
+
 {% if site.contact == "disqus" %}
 <!-- Disqus Stuff -->
 {% include js_disqus.html %}
