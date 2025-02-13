@@ -1,3 +1,16 @@
+<!-- Accordeon Bons plans -->
+<script>
+    $(document).ready(function () {
+        $("#accordion .panel-collapse").on("shown.bs.collapse", function () {
+            $(this).closest(".panel-default").addClass("active");
+        });
+
+        $("#accordion .panel-collapse").on("hidden.bs.collapse", function () {
+            $(this).closest(".panel-default").removeClass("active");
+        });
+    });
+</script>
+
 <!-- jQuery Version 1.11.0 -->
 <script src="{{ site.url }}/js/jquery-1.11.0.js"></script>
 
@@ -20,39 +33,6 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{ " js/freelancer.js" }}"></script>
 
-<!-- Accordeon Bons plans -->
- 
-<script>
-    $(document).ready(function () {
-        var delay = 500; // Temps en millisecondes (500ms = 0.5s)
-
-        $("#accordion .panel-title a").on("click", function (e) {
-            var target = $(this).attr("href"); // ID du collapse lié
-
-            if (!$(target).hasClass("in")) { // Vérifie si l'accordéon est FERMÉ
-                e.preventDefault(); // Bloque l'action immédiate
-                var $this = $(this); // Stocke l'élément cliqué
-
-                setTimeout(function () {
-                    $this.closest(".panel").find(".panel-collapse").collapse("show"); // Ouvre après le délai
-                }, delay);
-            }
-        });
-    });
-</script>
-
-
-<script>
-    $(document).ready(function () {
-        $("#accordion .panel-collapse").on("shown.bs.collapse", function () {
-            $(this).closest(".panel-default").addClass("active");
-        });
-
-        $("#accordion .panel-collapse").on("hidden.bs.collapse", function () {
-            $(this).closest(".panel-default").removeClass("active");
-        });
-    });
-</script>
 
 
 {% if site.contact == "disqus" %}
