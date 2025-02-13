@@ -587,7 +587,7 @@ body {
     overflow: hidden;
 }
 
-/* Création de la couche colorée */
+/* Création de la couche colorée 
 .panel-default::before {
     content: "";
     position: absolute;
@@ -603,14 +603,16 @@ body {
     border-radius: min(8px, 0.5rem);
 }
 
-/* On s'assure que l'en-tête et le contenu restent visibles */
+/* On s'assure que l'en-tête et le contenu restent visibles 
 .panel-heading,
 .panel-body {
     position: relative;
     z-index: 1;
 }
 
-/* Quand l'accordéon est actif, la couleur grandit jusqu'à couvrir tout */
+/* Quand l'accordéon est actif, la couleur grandit jusqu'à couvrir tout 
 .panel-default.active::before {
     transform: scale(1);
 }
+
+*/
