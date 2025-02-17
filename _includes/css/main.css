@@ -130,7 +130,7 @@ header .intro-text .skills {
 
 @media(min-width:1200px) {
     .navbar > .container{
-        width: 1500px;
+        width: 100%;
     }
 }
 
@@ -208,7 +208,8 @@ header .intro-text .skills {
 
     .navbar .pommepote{
         position:absolute;
-        right: 25px;
+        right: 0;
+        top: 25px;
         display: block;
     }
     .navbar .pommepote{
