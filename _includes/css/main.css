@@ -182,9 +182,19 @@ header .intro-text .skills {
 }
 
 @media (max-width: 767px) {
+    .navbar-header{
+        display: flex;
+    }
 .navbar-toggle{
     display: flex;
     padding: 3px 10px 15px 10px;
+    margin: 10px auto;
+}
+.navbar .pommepote{
+    position:absolute;
+    right: 20px;
+    top: 10px;
+    display: block;
 }
 }
 
@@ -208,7 +218,7 @@ header .intro-text .skills {
 
     .navbar .pommepote{
         position:absolute;
-        right: 0;
+        right: 20px;
         top: 25px;
         display: block;
     }
