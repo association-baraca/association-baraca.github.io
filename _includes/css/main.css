@@ -193,6 +193,11 @@ header .intro-text .skills {
     left: 35%;
 }
 
+.champimignon{
+    width: 50px;
+    height: 50px;
+}
+
 @-webkit-keyframes sliding{
     0%{transform: rotateY(0deg);}
     20%{transform: rotateY(360deg);}
