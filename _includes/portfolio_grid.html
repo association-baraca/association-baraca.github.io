@@ -9,8 +9,8 @@
     </div>
     <div class="actu">
       {% for post in site.categories.nouvelles %}
-        <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
         <h2>{{ post.titre }}</h2>
+        <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
         <p>{{ post.description }}</p>
       {% endfor %}
     </div>
