@@ -646,6 +646,10 @@ section#list-bon-plan{
     overflow: hidden;
 }
 
+.panel-group{
+    margin: 0 6px;
+}
+
 .panel-group .panel {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
