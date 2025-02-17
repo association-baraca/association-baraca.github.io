@@ -9,6 +9,5 @@ alt: image-alt
 project-date: Février 2025
 lieu: Salon la tour
 description: |
- Nous avons organisé une journée découverte de la vannerie, ouverte à toutes et tous et c'était très sympathique ! 
- N'hesitez pas à nous contacter pour savoir quand sera la prochaine !   
+ Nous avons organisé une journée découverte de la vannerie, réservée aux membres et c'était très sympathique !
 ---
