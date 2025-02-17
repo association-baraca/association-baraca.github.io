@@ -237,6 +237,7 @@ section.success {
     font-size: 2.25rem;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #quoi-a-venir .actu img{
@@ -245,7 +246,7 @@ section.success {
 }
 
 #quoi-a-venir .actu p{
-    max-width: 795px;
+    max-width: 700px;
 }
 
 #actions-passees .portfolio-item {
