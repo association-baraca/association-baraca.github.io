@@ -234,6 +234,13 @@ header .intro-text .skills {
         top: 10px;
         display: block;
     }
+    .champimignon {
+        width: 55px;
+        height: 55px;
+        left: 10px;
+        position: relative;
+        top: -3px;
+      }
     }
 
 
