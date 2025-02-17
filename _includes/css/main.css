@@ -181,17 +181,29 @@ header .intro-text .skills {
     border: 0;
 }
 
+.navbar-toggle{
+    display: flex;
+    padding: 3px 10px 15px 10px;
+}
+
+.navbar-toggle > p{
+    flex: 0 0 100%;
+    color: white;
+}
+
+.navbar-toggle > div{
+    position: absolute;
+    bottom: 7px;
+    left: 35%;
+}
+
 @-webkit-keyframes sliding{
     0%{transform: rotateY(0deg);}
     20%{transform: rotateY(360deg);}
     20.01%{transform: rotateY(0deg);}
 }
 
-.navbar .pommepote{
-    display: none;
-}
 
-@media(min-width:768px){
     .navbar .pommepote{
         position:absolute;
         right: 25px;
@@ -200,7 +212,7 @@ header .intro-text .skills {
     .navbar .pommepote{
         animation: sliding 6s ease-in-out infinite;
     }
-}
+
 
 section {
     padding: 100px 0;
