@@ -182,11 +182,11 @@ header .intro-text .skills {
 }
 
 .navbar-toggle{
-    border-color: white;
+    border-color: white !important;
 }
 
 .navbar-toggle:hover{
-    border-color: #1a242f;
+    border-color: #1a242f !important;
 }
 
 .navbar-toggle > p{
