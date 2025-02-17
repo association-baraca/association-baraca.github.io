@@ -181,22 +181,6 @@ header .intro-text .skills {
     border: 0;
 }
 
-@media (max-width: 767px) {
-    .navbar-header{
-        display: flex;
-    }
-.navbar-toggle{
-    display: flex;
-    padding: 3px 10px 15px 10px;
-    margin: 10px auto;
-}
-.navbar .pommepote{
-    position:absolute;
-    right: 20px;
-    top: 10px;
-    display: block;
-}
-}
 
 .navbar-toggle > p{
     flex: 0 0 100%;
@@ -224,6 +208,24 @@ header .intro-text .skills {
     }
     .navbar .pommepote{
         animation: sliding 6s ease-in-out infinite;
+    }
+
+
+    @media (max-width: 767px) {
+        .navbar-header{
+            display: flex;
+        }
+    .navbar-toggle{
+        display: flex;
+        padding: 3px 10px 15px 10px;
+        margin: 10px auto;
+    }
+    .navbar .pommepote{
+        position:absolute;
+        right: 20px;
+        top: 10px;
+        display: block;
+    }
     }
 
 
