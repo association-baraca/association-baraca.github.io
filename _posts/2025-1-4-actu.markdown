@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 4
-titre: Fete de la baracas - 16 Mars 2025
+titre: Fete de la baracas<br> - 16 Mars 2025 -
 categories: nouvelles
 date: 2014-07-18
 img: Fete-baracas-2025.jpg
