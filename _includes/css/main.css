@@ -181,9 +181,11 @@ header .intro-text .skills {
     border: 0;
 }
 
+@media (max-width: 767px) {
 .navbar-toggle{
     display: flex;
     padding: 3px 10px 15px 10px;
+}
 }
 
 .navbar-toggle > p{
