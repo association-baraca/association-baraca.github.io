@@ -527,15 +527,7 @@ footer .footer-below {
     outline: 0;
 }
 
-@media all and (min-width:830px){
-    .portfolio-modal{
-        margin: 30px 50px;
-    }
-    .portfolio-modal .modal-content h2 {
-        margin: 0;
-        font-size: 3em;
-    }
-}
+
 
 .portfolio-modal{
     margin: 10px;
@@ -555,6 +547,16 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 2.25em;
+}
+
+@media all and (min-width:830px){
+    .portfolio-modal{
+        margin: 30px 50px;
+    }
+    .portfolio-modal .modal-content h2 {
+        margin: 0;
+        font-size: 3em;
+    }
 }
 
 .portfolio-modal .modal-content img {
