@@ -7,7 +7,7 @@ backend:
   roles: ["admin", "editor"]
 
 media_folder: "img/uploads"
-public_folder: "img//uploads"
+public_folder: "img/uploads"
 
 collections:
   - name: "posts"
