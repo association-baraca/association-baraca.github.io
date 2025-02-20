@@ -216,8 +216,13 @@ header .intro-text .skills {
   height: 55px;
   position: absolute;
   left: 20px;
-  top: 29px;
+  top: 25px;
   display: block;
+}
+
+.navbar-shrink .champimignon{
+    top:29px;
+    transition: all .2s ease;
 }
 
 @-webkit-keyframes sliding{
