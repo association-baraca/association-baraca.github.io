@@ -172,6 +172,12 @@ header .intro-text .skills {
     letter-spacing: 1px;
 }
 
+@media all and (max-width:991px) and (min-width:768px){
+    .navbar .navbar-nav > li {
+        font-size: 1.2rem;
+    }
+}
+
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
