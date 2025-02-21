@@ -189,9 +189,14 @@ header .intro-text .skills {
     transition: width .5s ease, background-color .5s ease;
 }
 
-.navbar-default .navbar-nav > li > a:not(.active):hover:after {
+.navbar-default .navbar-nav > li > a:hover:after {
     width: 100%;
     background: rgba(255,255,255,.1);
+}
+
+.navbar-default .navbar-nav > li > a.active:hover:after {
+    width: 100%;
+    background: rgba(255,255,255,0);
 }
 
 @media (min-width: 768px) {
