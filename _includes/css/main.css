@@ -178,6 +178,22 @@ header .intro-text .skills {
     }
 }
 
+.navbar-default .navbar-nav > li > a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    margin-top:10px;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.navbar-default .navbar-nav > li > a:hover:after, #top-menu li.current-menu-item > a:after {
+    width: 100%;
+    background: #e6fd33;
+}
+
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
