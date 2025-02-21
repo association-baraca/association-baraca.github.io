@@ -191,7 +191,7 @@ header .intro-text .skills {
 
 .navbar-default .navbar-nav > li > a:hover:after, #top-menu li.current-menu-item > a:after {
     width: 100%;
-    background: #e6fd33;
+    background: rgba(255,255,255,.1);
 }
 
 .navbar .navbar-nav li a:focus {
