@@ -194,6 +194,14 @@ header .intro-text .skills {
     background: rgba(255,255,255,.1);
 }
 
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+      padding-top: 19.5px;
+      padding-bottom: 12.5px;
+      margin-bottom: 7px;
+    }
+  }
+
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
