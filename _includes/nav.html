@@ -33,7 +33,8 @@
         <li class="page-scroll">
           <a href="{{ site.url }}/#contact">Nous écrire</a>
         </li>
-        <li class="page-scroll">
+        {% assign url_parts = page.url | split: '/' %}
+        <li class="page-scroll {% if url_parts[1] == 'les-bons-plans' %}active{% endif %}">
           <a href="{{ site.url }}/les-bons-plans">Les bons plans</a>
         </li>
       </ul>
