@@ -249,9 +249,11 @@ header .intro-text .skills {
   display: block;
 }
 
+@media (max-width: 767px) {
 .navbar-shrink .champimignon{
     top:29px;
     transition: all .2s ease;
+}
 }
 
 @-webkit-keyframes sliding{
