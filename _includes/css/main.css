@@ -290,7 +290,7 @@ header .intro-text .skills {
         justify-content: center;
     }
 
-    .navbar-toggle.collapsed {
+    .navbar-toggle {
         display: flex !important;
         padding: 3px 10px 15px 10px;
         margin: 10px auto;
