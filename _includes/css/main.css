@@ -75,7 +75,8 @@ hr.star-primary {
     border-color: #{{ site.color.secondary }};}
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};background-color: #fff;
+    color: #{{ site.color.secondary }};
+    background-color: #fff;
 }
 
 .img-centered {
@@ -674,10 +675,7 @@ transform: rotate(90deg);
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }
-}
-
-!important;
+    background-color: #{{ site.color.secondary-dark }}!important;
 }
 
 /* Fix modal mouse wheel issues */
