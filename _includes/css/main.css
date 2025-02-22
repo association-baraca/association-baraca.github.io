@@ -232,10 +232,13 @@ header .intro-text .skills {
     left: 35%;
 }
 
-.navbar>.container {
-    display: flex;
-    justify-content: center;
+@media all and (min-width:768px){
+    .navbar>.container {
+        display: flex;
+        justify-content: center;
+    }
 }
+
 
 .champimignon {
     width: 55px;
