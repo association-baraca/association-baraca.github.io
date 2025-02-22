@@ -306,7 +306,7 @@ header .intro-text .skills {
 
 
     .navbar-toggle {
-        display: none !important;
+        display: none !important; 
     }
 
     .navbar-toggle.collapsed {
