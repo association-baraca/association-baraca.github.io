@@ -4,10 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- .navbar-default {
+.navbar-default {
     background-color: red !important;
     border-color: transparent;
-  }
+}
 
 body {
     overflow-x: hidden;
@@ -27,11 +27,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }
-}
-
-;
-}
+    color: #{{ site.color.primary }};}
 
 h1,
 h2,
@@ -73,25 +69,13 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }
-}
-
-;
-}
+    background-color: #{{ site.color.primary }};}
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }
-}
-
-;
-}
+    border-color: #{{ site.color.secondary }};}
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }
-}
-
-;
-background-color: #fff;
+    color: #{{ site.color.secondary }};background-color: #fff;
 }
 
 .img-centered {
@@ -101,11 +85,7 @@ background-color: #fff;
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }
-}
-
-;
-}
+    background: #{{ site.color.primary }};}
 
 header .container {
     padding-top: 100px;
@@ -310,7 +290,7 @@ header .intro-text .skills {
     }
 
     .navbar-toggle {
-        display: none !important; 
+        display: none !important;
     }
 
     .navbar-toggle.collapsed {
@@ -349,11 +329,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }
-}
-
-;
-}
+    background: #{{ site.color.primary }};}
 
 @media(max-width:767px) {
     section {
@@ -507,11 +483,7 @@ transition: all ease .5s;
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }
-}
-
-;
-background: #fff;
+    color: #{{ site.color.primary }};background: #fff;
 }
 
 .floating-label-form-group {
@@ -563,11 +535,7 @@ background: #fff;
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }
-}
-
-;
-}
+    color: #{{ site.color.primary }};}
 
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
@@ -583,11 +551,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }
-}
-
-;
-}
+    background-color: #{{ site.color.secondary }};}
 
 footer .footer-col {
     margin-bottom: 50px;
@@ -595,11 +559,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }
-}
-
-;
-}
+    background-color: #{{ site.color.secondary-dark }};}
 
 .btn-social {
     display: inline-block;
@@ -699,11 +659,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }
-}
-
-;
--webkit-transform: rotate(45deg);
+    background-color: #{{ site.color.secondary }};-webkit-transform: rotate(45deg);
 -ms-transform: rotate(45deg);
 transform: rotate(45deg);
 }
@@ -712,11 +668,7 @@ transform: rotate(45deg);
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }
-}
-
-;
--webkit-transform: rotate(90deg);
+    background-color: #{{ site.color.secondary }};-webkit-transform: rotate(90deg);
 -ms-transform: rotate(90deg);
 transform: rotate(90deg);
 }
@@ -793,18 +745,10 @@ section#list-bon-plan {
 }
 
 .panel-group .panel-heading a:hover {
-    color: #{{ site.color.primary }
-}
-
-;
-}
+    color: #{{ site.color.primary }};}
 
 .panel-group .active .panel-heading a {
-    color: #{{ site.color.primary }
-}
-
-;
-}
+    color: #{{ site.color.primary }};}
 
 
 
