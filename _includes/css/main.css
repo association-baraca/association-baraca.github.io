@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ .navbar-default {
+    background-color: red !important;
+    border-color: transparent;
+  }
+
 body {
     overflow-x: hidden;
 }
