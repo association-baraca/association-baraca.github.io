@@ -287,10 +287,7 @@ header .intro-text .skills {
     .navbar-header {
         display: flex;
         align-items: center;
-    }
-
-    .navbar-toggle {
-        display: none !important;
+        justify-content: center;
     }
 
     .navbar-toggle.collapsed {
