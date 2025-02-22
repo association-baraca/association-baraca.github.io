@@ -175,6 +175,10 @@ header .intro-text .skills {
     }
 }
 
+.navbar-nav>li{
+    text-align: center;
+}
+
 .navbar-default .navbar-nav>li>a:after {
     content: '';
     display: block;
