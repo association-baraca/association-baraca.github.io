@@ -298,12 +298,11 @@ header .intro-text .skills {
 }
 
 
-@media (max-width: 767px) {
+@media all and (max-width: 767px) {
     .navbar-header {
         display: flex;
         align-items: center;
     }
-
 
     .navbar-toggle {
         display: none !important; 
