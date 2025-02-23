@@ -288,8 +288,10 @@ header .intro-text .skills {
     display: block;
 }
 
+@media (min-width: 768px) {
 .navbar-shrink .pommepote{
     top: 38px;
+}
 }
 
 .navbar .pommepote {
