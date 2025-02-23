@@ -253,9 +253,15 @@ header .intro-text .skills {
     display: block;
 }
 
+    .navbar-shrink .champimignon {
+        top: 41px;
+        transition: all .2s ease;
+    }
+
+
 @media (max-width: 767px) {
     .navbar-shrink .champimignon {
-        top: 29px;
+        top: 10px;
         transition: all .2s ease;
     }
 }
@@ -280,6 +286,10 @@ header .intro-text .skills {
     right: 20px;
     top: 25px;
     display: block;
+}
+
+.navbar-shrink .pommepote{
+    top: 38px;
 }
 
 .navbar .pommepote {
