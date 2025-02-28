@@ -763,7 +763,20 @@ section#list-bon-plan {
 .panel-group .active .panel-heading a {
     color: #{{ site.color.primary }};}
 
+/*** toggle astuce pub ***/
+#astuce-pub{
+    display: inline-block;
+    font-size: inherit;
+}
 
+#astuce-pub-text{
+    display: none;
+    font-size: inherit;
+}
+
+#astuce-pub:hover > #astuce-pub-text{
+    display: inline-block;
+}
 
 /* Création de la couche colorée 
 .panel-default::before {
