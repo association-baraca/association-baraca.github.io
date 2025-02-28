@@ -774,7 +774,9 @@ section#list-bon-plan {
     font-size: inherit;
 }
 
-#astuce-pub:hover:active:focus > #astuce-pub-text{
+#astuce-pub:hover > #astuce-pub-text,
+#astuce-pub:active > #astuce-pub-text,
+#astuce-pub:focus > #astuce-pub-text{
     display: inline-block;
 }
 
