@@ -37,6 +37,10 @@
         <li class="page-scroll {% if url_parts[1] == 'les-bons-plans' %}active{% endif %}">
           <a href="{{ site.url }}/les-bons-plans">Les bons plans</a>
         </li>
+        {% assign url_parts = page.url | split: '/' %}
+        <li class="page-scroll {% if url_parts[1] == 'les-astuces-astucieuses' %}active{% endif %}">
+          <a href="{{ site.url }}/les-astuces-astucieuses">Les astuces</a>
+        </li>
       </ul>
     </div>
 
